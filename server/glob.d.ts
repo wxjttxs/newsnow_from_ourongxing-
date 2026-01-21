@@ -2,6 +2,7 @@
 
 declare module 'glob:./sources/{*.ts,**/index.ts}' {
   export const _36kr: typeof import('./sources/_36kr')
+  export const appso: typeof import('./sources/appso')
   export const baidu: typeof import('./sources/baidu')
   export const bilibili: typeof import('./sources/bilibili')
   export const cankaoxiaoxi: typeof import('./sources/cankaoxiaoxi')
@@ -29,6 +30,7 @@ declare module 'glob:./sources/{*.ts,**/index.ts}' {
   export const nowcoder: typeof import('./sources/nowcoder')
   export const pcbeta: typeof import('./sources/pcbeta')
   export const producthunt: typeof import('./sources/producthunt')
+  export const qbitai: typeof import('./sources/qbitai')
   export const qqvideo: typeof import('./sources/qqvideo')
   export const smzdm: typeof import('./sources/smzdm')
   export const solidot: typeof import('./sources/solidot')
@@ -42,6 +44,7 @@ declare module 'glob:./sources/{*.ts,**/index.ts}' {
   export const v2ex: typeof import('./sources/v2ex')
   export const wallstreetcn: typeof import('./sources/wallstreetcn')
   export const weibo: typeof import('./sources/weibo')
+  export const xinzhiyuan: typeof import('./sources/xinzhiyuan')
   export const xueqiu: typeof import('./sources/xueqiu')
   export const zaobao: typeof import('./sources/zaobao')
   export const zhihu: typeof import('./sources/zhihu')

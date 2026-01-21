@@ -103,7 +103,7 @@ export const originSources = {
       },
       renqi: {
         type: "hottest",
-        title: "人气榜",
+        title: "AI榜",
       },
     },
   },
@@ -482,6 +482,27 @@ export const originSources = {
         home: "https://www.iqiyi.com",
       },
     },
+  },
+  "qbitai": {
+    name: "量子位",
+    column: "tech",
+    color: "blue",
+    type: "realtime",
+    home: "https://www.qbitai.com",
+  },
+  "xinzhiyuan": {
+    name: "新智元",
+    column: "tech",
+    color: "red",
+    type: "realtime",
+    home: "https://mp.weixin.qq.com/s/9LZ1EpPO0MJBqJoFP6qTvA",
+  },
+  "appso": {
+    name: "AppSo",
+    column: "tech",
+    color: "orange",
+    type: "realtime",
+    home: "https://www.ifanr.com/app",
   },
 } as const satisfies Record<string, OriginSource>
 

@@ -14,6 +14,11 @@ dotenv.config({
 })
 
 export default defineConfig({
+  server: {
+    port: 4444,
+    host: "0.0.0.0",
+    strictPort: true, // 如果端口被占用则退出，不尝试其他端口
+  },
   resolve: {
     alias: {
       "~": join(projectDir, "src"),

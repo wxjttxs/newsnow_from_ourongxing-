@@ -1,0 +1,27 @@
+services:
+  newsnow:
+    image: node:20-alpine
+    container_name: newsnow-dev
+    working_dir: /usr/src
+    ports:
+      - '4444:4444'
+    volumes:
+      # 挂载源代码目录，修改代码后立即生效
+      - .:/usr/src
+      # 挂载 node_modules 避免重复安装（可选）
+      - newsnow_node_modules:/usr/src/node_modules
+      # 数据目录
+      - newsnow_data:/usr/src/.data
+    env_file:
+      - .env
+    environment:
+      - HOST=0.0.0.0
+      - PORT=4444
+      - NODE_ENV=development
+    command: sh -c "corepack enable && corepack prepare pnpm@latest --activate && pnpm install && pnpm run dev"
+
+volumes:
+  newsnow_data:
+    name: newsnow_data
+  newsnow_node_modules:
+    name: newsnow_node_modules

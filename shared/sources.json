@@ -130,7 +130,7 @@
     "home": "https://36kr.com",
     "color": "blue",
     "interval": 600000,
-    "title": "人气榜"
+    "title": "AI榜"
   },
   "douyin": {
     "name": "抖音",
@@ -563,5 +563,29 @@
     "color": "green",
     "interval": 1800000,
     "title": "热播榜"
+  },
+  "qbitai": {
+    "name": "量子位",
+    "type": "realtime",
+    "column": "tech",
+    "home": "https://www.qbitai.com",
+    "color": "blue",
+    "interval": 600000
+  },
+  "xinzhiyuan": {
+    "name": "新智元",
+    "type": "realtime",
+    "column": "tech",
+    "home": "https://mp.weixin.qq.com/s/9LZ1EpPO0MJBqJoFP6qTvA",
+    "color": "red",
+    "interval": 600000
+  },
+  "appso": {
+    "name": "AppSo",
+    "type": "realtime",
+    "column": "tech",
+    "home": "https://www.ifanr.com/app",
+    "color": "orange",
+    "interval": 600000
   }
 }

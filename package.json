@@ -129,9 +129,9 @@
     "vite": "^6"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "sh scripts/lint-staged.sh"
   },
   "lint-staged": {
-    "*": "eslint --fix"
+    "*": "pnpm exec eslint --fix"
   }
 }

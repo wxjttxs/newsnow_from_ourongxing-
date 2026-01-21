@@ -9,7 +9,7 @@
   "wallstreetcn-news": "huaerjiejianwen-zuixin",
   "wallstreetcn-hot": "huaerjiejianwen-zuire",
   "36kr-quick": "36ke-kuaixun",
-  "36kr-renqi": "36ke-renqibang",
+  "36kr-renqi": "36ke-AIbang",
   "douyin": "douyin",
   "hupu": "hupu-zhugandaoretie",
   "tieba": "baidutieba-reyi",
@@ -48,5 +48,8 @@
   "tencent-hot": "tengxunxinwen-zonghezaobao",
   "freebuf": "Freebuf-wangluoanquan",
   "qqvideo-tv-hotsearch": "tengxunshipin-resoubang",
-  "iqiyi-hot-ranklist": "aiqiyi-rebobang"
+  "iqiyi-hot-ranklist": "aiqiyi-rebobang",
+  "qbitai": "liangziwei",
+  "xinzhiyuan": "xinzhiyuan",
+  "appso": "AppSo"
 }

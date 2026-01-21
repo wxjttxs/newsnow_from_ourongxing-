@@ -33,7 +33,7 @@ const quick = defineSource(async () => {
 const renqi = defineSource(async () => {
   const baseURL = "https://36kr.com"
   const formatted = dayjs().format("YYYY-MM-DD")
-  const url = `${baseURL}/hot-list/renqi/${formatted}/1`
+  const url = `https://36kr.com/information/AI/`
 
   const response = await myFetch<any>(url, {
     headers: {
